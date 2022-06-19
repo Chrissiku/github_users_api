@@ -71,7 +71,7 @@ body {
 }
 
 .container #main .card .img .banner {
-  background-image: url("./assets/background.png");
+  background-image: url("../assets/background.png");
   background-position: center;
   background-size: cover;
   width: 100%;
