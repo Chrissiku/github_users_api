@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --Neon-Blue: #5451fa;
+  --Pale-Lavender: #dcdafe;
+  --Armadillo: #4a4a4a;
+  --Aluminum: #979797;
+}
+
+body {
+  background-color: #36349c;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: auto;
+  max-width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.container form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: 400;
+  border: 2px solid var(--Neon-Blue);
+}
+
+.container main .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container #main .card .img {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 150px;
+}
+
+.container #main .error {
+  font-size: 10px;
+  color: rgb(219, 123, 123);
+}
+
+.container #main .card .img .banner {
+  background-image: url("./assets/background.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+  border-radius: 20px;
+}
+
+.container #main .card img {
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  border: 2px solid var(--Neon-Blue);
+  border-radius: 50%;
+}
+
+.container #main .card .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1px;
+  padding: 4px 0;
+}
+
+.container #main .card .user-info h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.container #main .card .user-info p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--Armadillo);
+  margin: 5px auto;
+}
+
+.container #main .card .user-info ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.container #main .card .user-info ul li {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  gap: 1px;
+}
+
+.container #main .card .user-info ul li:nth-child(2) {
+  color: var(--Neon-Blue);
+}
+
+.container #main .card .user-info ul li strong {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--Aluminum);
+}
+
+.container #main .card .user-info #repos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 5px;
+  margin: 10px 0;
+}
+
+.container #main .card .user-info #repos a {
+  padding: 2px 8px;
+  color: var(--Armadillo);
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 05px;
+  transition: all 0.5s;
+  border: 1px solid #5451fa;
+}
+
+.container #main .card .user-info #repos a:hover {
+  background: #7270e28e;
+  color: rgb(2, 2, 2);
+}
+
+.container #main .card .user-info .follow {
+  margin-top: 10px;
+  padding: 20px;
+  width: 100%;
+  background-color: var(--Neon-Blue);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.container #main .card .user-info .follow:hover {
+  background-color: #5451fa5d;
+  color: var(--Neon-Blue);
+  font-weight: 600;
+}
