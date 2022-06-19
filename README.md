@@ -2,7 +2,7 @@
 
 # Project Name :  Github Users API
 
-> This project concern github users api, The interface is fetching github user by username and display user information on the profile card using gituhb API
+> This project concern github users API, The interface is fetching GitHub user by username and display user information on the profile card using gituhGitHubb API
 >
 >
 > In order to achieve this project I used some resources and technologies listed below :
